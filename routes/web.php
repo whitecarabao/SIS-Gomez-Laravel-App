@@ -50,3 +50,4 @@ Route::post('post-login', [RegController::class,'postLogin'])->name('login.post'
 Route::get('logout', [RegController::class,'logout'])->name('logout');
 Route::post('post-reg',[RegController::class,'register'])->name('register.post');
 Route::get('studentList',[RegController::class,'studentDash']);
+Route::get('/',[RegController::class,'index']);
